@@ -1,5 +1,5 @@
 document.getElementById('rotateIpButton').addEventListener('click', () => {
-    fetch('/rotate-ip', {
+    fetch('https://rotatepk-a750b8a2f3fb.herokuapp.com/rotate-ip', {
         method: 'POST',
     })
     .then(response => {
